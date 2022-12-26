@@ -1,0 +1,170 @@
+/*h1,h3,p,ol{
+    text-align: center;
+    text-decoration: solid;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    /*display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding: 30px;//
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.column {
+    max-width: 33.333%;
+    padding: 0 10px;
+    height: 240px;
+}
+
+.column img { 
+    width: 100%;
+    height:100%;
+    cursor: pointer;
+}
+
+.column img:hover{
+    transform:scale(1.07);
+    border-radius: 15px;
+}
+
+
+ul {
+    display: table;
+    margin: 0 auto;
+  }
+
+  ol{
+    text-align: center;
+  list-style-position: inside;
+  }
+
+.ingredients{
+    border-radius: 10px;
+    background-color: rgb(240, 236, 230);
+    padding:20px;
+    flex-grow: 3;
+}*/
+*{
+    background-color: honeydew;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.column {
+    max-width: 33.333%;
+    padding: 0 10px;
+    height: 240px;
+}
+
+.column img { 
+    width: 100%;
+    height:100%;
+    cursor: pointer;
+}
+
+.column img:hover{
+    transform:scale(1.07);
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+h1,h3{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contents{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    gap:20px;
+    
+   }
+
+.left{
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 30px;
+    width:420px;
+    height: 1507px;
+}
+
+.left img{
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+
+}
+.contents{
+    gap:40px;
+    display: flex;
+}
+
+
+.right-top{
+    border:2px solid rgb(41, 41, 41);
+    height:350px;
+    border-radius: 10px;
+  
+  
+}
+
+.steps{   
+    margin-top:20px;
+    margin-left: 10px;
+    border:2px solid rgb(41, 41, 41);
+    border-radius: 10px; 
+    height: 987px;
+    width:80%;
+
+}
+
+.ingredients{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    flex-grow: 3;
+    width: 400px;
+}
+.right-top,
+.steps{
+    padding:0px 50px 0px 50px;
+   
+}
+
+.left img{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+ul,ol,p,a{
+    font-family: 'Candara', serif;
+}
+
+h1,h3{
+    font-family: 'Garamond' , serif;
+    font-size:4vw;
+    
+
+}
